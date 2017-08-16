@@ -15,3 +15,15 @@ parameters:
             network.remote-dio: On
             diagnostics.client-log-level: WARNING
             diagnostics.brick-log-level: WARNING
+  linux:
+    system:
+      user:
+        glance:
+          name: glance
+          home: /var/lib/glance
+          shell: /bin/false
+          system: True
+      group:
+        glance:
+          name: glance
+          system: True
