@@ -19,11 +19,13 @@ parameters:
     system:
       user:
         glance:
+          enabled: true
           name: glance
           home: /var/lib/glance
           shell: /bin/false
           system: True
       group:
         glance:
+          enabled: true
           name: glance
           system: True

@@ -32,6 +32,7 @@ parameters:
     system:
       user:
         keystone:
+          enabled: true
           name: keystone
           home: /var/lib/keystone
           uid: 301
@@ -40,6 +41,7 @@ parameters:
           system: True
       group:
         keystone: 
+          enabled: true
           name: keystone
           gid: 301
           system: True
